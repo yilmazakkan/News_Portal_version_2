@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/large"
+    tools:context="com.example.lenovo.news_portal_1.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ahsap1"
+        android:padding="20dp" />
+
+    <TableLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:paddingTop="100dp">
+
+        <TableRow>
+
+
+            <ImageView
+                android:id="@+id/sports"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_weight="1"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/sporttt" />
+
+            <ImageView
+                android:id="@+id/economy"
+                android:layout_width="30dp"
+                android:layout_height="98dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/eko" />
+
+            <ImageView
+                android:id="@+id/life"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_weight="1"
+                android:paddingLeft="40dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/lifestyle" />
+        </TableRow>
+
+        <TableRow>
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

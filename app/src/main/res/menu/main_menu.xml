@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/add_sport" android:title="Add Sports" />
+
+    <item android:id="@+id/add_economy" android:title="Add Economy" />
+    <item android:id="@+id/add_life" android:title="Add Life" />
+    <item android:id="@+id/add_delete" android:title="All Delete" />
+
+</menu>
